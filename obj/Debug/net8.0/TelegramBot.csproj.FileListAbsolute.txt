@@ -16,3 +16,4 @@ D:\Progects\TelegramBot\TelegramBot\obj\Debug\net8.0\refint\TelegramBot.dll
 D:\Progects\TelegramBot\TelegramBot\obj\Debug\net8.0\TelegramBot.pdb
 D:\Progects\TelegramBot\TelegramBot\obj\Debug\net8.0\TelegramBot.genruntimeconfig.cache
 D:\Progects\TelegramBot\TelegramBot\obj\Debug\net8.0\ref\TelegramBot.dll
+D:\Progects\TelegramBot\TelegramBot\obj\Debug\net8.0\TelegramBot.sourcelink.json

@@ -70,7 +70,12 @@ async Task OnMessage(Message msg, UpdateType type)
 
         await bot.SendTextMessageAsync(
             chatId: msg.Chat,
-            text: $"🎉 *Welcome! This is SkillBot. Here is a list of commands that this bot can execute\nUse /skills to see my skills.\nUse /project to see what sites can I create\nUse /contact to contact whith me",
+            text: $@"🎉 *Welcome! This is SkillBot. Here is a list of commands that this bot can execute
+            Use /skills to see my skills.
+            Use /project to see what sites can I create
+            Use /contact to contact whith me
+            Use /quiz to test your knowledge
+            Press ""Play Game"" to play game",
             replyMarkup: inlineKeyboard
         );
     }
@@ -89,7 +94,7 @@ async Task OnMessage(Message msg, UpdateType type)
             text: "👕 *Here is the Landing Page of the clothing store I created"
         );
 
-        await bot.SendVideoAsync(msg.Chat, "https://viridas.github.io/Video/MyLandingPage.mp4",
+        await bot.SendVideoAsync(msg.Chat, "https://viridas.github.io/Video/LandingPage.mp4",
             thumbnail: "https://telegrambots.github.io/book/2/docs/thumb-clock.jpg", supportsStreaming: true);
 
     }
