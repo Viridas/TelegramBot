@@ -231,7 +231,7 @@ async Task OnUpdate(Update update)
                 text: "👕 *Here is the Landing Page of the clothing store I created"
             );
 
-            await bot.SendVideoAsync(chatId, "https://viridas.github.io/Video/MyLandingPage.mp4",
+            await bot.SendVideoAsync(chatId, "https://viridas.github.io/Video/LandingPage.mp4",
                 thumbnail: "https://telegrambots.github.io/book/2/docs/thumb-clock.jpg", supportsStreaming: true);
 
         }
