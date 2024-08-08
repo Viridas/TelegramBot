@@ -3,6 +3,6 @@
     "description": "Bot for Yuriy Lutsenko's portfolio.",
     "repository": "https://github.com/Viridas/TelegramBot",
     "keywords": ["telegram", "bot", "heroku"],
-    "stack": "heroku-20"
+    "stack": "heroku-22"
   }
   
