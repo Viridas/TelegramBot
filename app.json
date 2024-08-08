@@ -1,0 +1,8 @@
+{
+    "name": "Urii_Lutsenko_Portfolio_bot",
+    "description": "Bot for Yuriy Lutsenko's portfolio.",
+    "repository": "https://github.com/Viridas/TelegramBot",
+    "keywords": ["telegram", "bot", "heroku"],
+    "stack": "heroku-20"
+  }
+  
