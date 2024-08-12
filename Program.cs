@@ -16,7 +16,7 @@ class Program
     {
         using var cts = new CancellationTokenSource();
 
-        var bot = new TelegramBotClient("7499411039:AAGvIJHyqBmp-9TsAVj-dMO09OgReoGVzZk");
+        var bot = new TelegramBotClient(Environment.GetEnvironmentVariable("TELEGRAM_BOT_TOKEN"));
 
         var me = await bot.GetMeAsync();
         Console.WriteLine($"@{me.Username} is running... Press Enter to terminate");
@@ -33,9 +33,8 @@ class Program
             receiverOptions,
             cancellationToken: cts.Token
         );
-
-        Console.ReadLine();
-        cts.Cancel(); // stop the bot
+        
+        await Task.Delay(Timeout.Infinite);
     }
 
     static async Task HandleUpdateAsync(ITelegramBotClient botClient, Update update, CancellationToken cancellationToken)
