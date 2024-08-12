@@ -10,10 +10,9 @@ D:\Progects\TelegramBot\TelegramBot\obj\Debug\net6.0\TelegramBot.GeneratedMSBuil
 D:\Progects\TelegramBot\TelegramBot\obj\Debug\net6.0\TelegramBot.AssemblyInfoInputs.cache
 D:\Progects\TelegramBot\TelegramBot\obj\Debug\net6.0\TelegramBot.AssemblyInfo.cs
 D:\Progects\TelegramBot\TelegramBot\obj\Debug\net6.0\TelegramBot.csproj.CoreCompileInputs.cache
-D:\Progects\TelegramBot\TelegramBot\obj\Debug\net6.0\TelegramBot.sourcelink.json
-D:\Progects\TelegramBot\TelegramBot\obj\Debug\net6.0\Telegram.C5E56D06.Up2Date
 D:\Progects\TelegramBot\TelegramBot\obj\Debug\net6.0\TelegramBot.dll
-D:\Progects\TelegramBot\TelegramBot\obj\Debug\net6.0\refint\TelegramBot.dll
 D:\Progects\TelegramBot\TelegramBot\obj\Debug\net6.0\TelegramBot.pdb
 D:\Progects\TelegramBot\TelegramBot\obj\Debug\net6.0\TelegramBot.genruntimeconfig.cache
 D:\Progects\TelegramBot\TelegramBot\obj\Debug\net6.0\ref\TelegramBot.dll
+D:\Progects\TelegramBot\TelegramBot\bin\Debug\net6.0\ref\TelegramBot.dll
+D:\Progects\TelegramBot\TelegramBot\obj\Debug\net6.0\TelegramBot.csproj.CopyComplete
