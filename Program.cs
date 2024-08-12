@@ -14,7 +14,7 @@ class Program
     static List<string> answers = new List<string> { "4", "20", "50", "30" };
     static async Task Main()
     {
-        var bot = new TelegramBotClient(Environment.GetEnvironmentVariable("TELEGRAM_BOT_TOKEN"));
+        var bot = new TelegramBotClient("7499411039:AAGvIJHyqBmp-9TsAVj-dMO09OgReoGVzZk");
 
         var me = await bot.GetMeAsync();
         Console.WriteLine($"@{me.Username} is running... Press Enter to terminate");
