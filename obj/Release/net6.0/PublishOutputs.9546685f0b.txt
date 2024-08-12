@@ -1,0 +1,7 @@
+D:\Progects\TelegramBot\TelegramBot\heroku_output\TelegramBot.exe
+D:\Progects\TelegramBot\TelegramBot\heroku_output\TelegramBot.dll
+D:\Progects\TelegramBot\TelegramBot\heroku_output\TelegramBot.deps.json
+D:\Progects\TelegramBot\TelegramBot\heroku_output\TelegramBot.runtimeconfig.json
+D:\Progects\TelegramBot\TelegramBot\heroku_output\TelegramBot.pdb
+D:\Progects\TelegramBot\TelegramBot\heroku_output\Newtonsoft.Json.dll
+D:\Progects\TelegramBot\TelegramBot\heroku_output\Telegram.Bot.dll

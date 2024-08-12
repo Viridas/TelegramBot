@@ -1,1 +1,1 @@
-worker: dotnet run
+worker: dotnet heroku_output/TelegramBot.dll
