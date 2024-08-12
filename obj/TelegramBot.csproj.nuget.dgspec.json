@@ -17,15 +17,15 @@
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net7.0"
+          "net6.0"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {},
           "https://nuget.voids.site/v3/index.json": {}
         },
         "frameworks": {
-          "net7.0": {
-            "targetAlias": "net7.0",
+          "net6.0": {
+            "targetAlias": "net6.0",
             "projectReferences": {}
           }
         },
@@ -41,8 +41,8 @@
         }
       },
       "frameworks": {
-        "net7.0": {
-          "targetAlias": "net7.0",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "dependencies": {
             "Telegram.Bot": {
               "target": "Package",
@@ -63,19 +63,19 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[7.0.20, 7.0.20]"
+              "version": "[6.0.31, 6.0.31]"
             },
             {
               "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[7.0.20, 7.0.20]"
+              "version": "[6.0.31, 6.0.31]"
             },
             {
               "name": "Microsoft.NETCore.App.Ref",
-              "version": "[7.0.20, 7.0.20]"
+              "version": "[6.0.31, 6.0.31]"
             },
             {
               "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[7.0.20, 7.0.20]"
+              "version": "[6.0.31, 6.0.31]"
             }
           ],
           "frameworkReferences": {
