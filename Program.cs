@@ -33,7 +33,7 @@ class Program
             receiverOptions,
             cancellationToken: cts.Token
         );
-        
+
         await Task.Delay(Timeout.Infinite);
     }
 
