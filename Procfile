@@ -1,1 +1,1 @@
-worker: dotnet run --project TelegramBot.csproj
+worker: dotnet run
