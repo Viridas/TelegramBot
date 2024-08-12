@@ -1,1 +1,1 @@
-worker: dotnet heroku_output/TelegramBot.dll
+worker: ./heroku_output/TelegramBot
