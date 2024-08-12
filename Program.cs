@@ -14,8 +14,6 @@ class Program
     static List<string> answers = new List<string> { "4", "20", "50", "30" };
     static async Task Main()
     {
-        using var cts = new CancellationTokenSource();
-
         var bot = new TelegramBotClient(Environment.GetEnvironmentVariable("TELEGRAM_BOT_TOKEN"));
 
         var me = await bot.GetMeAsync();
@@ -30,8 +28,7 @@ class Program
         bot.StartReceiving(
             HandleUpdateAsync,
             HandleErrorAsync,
-            receiverOptions,
-            cancellationToken: cts.Token
+            receiverOptions
         );
 
         await Task.Delay(Timeout.Infinite);
